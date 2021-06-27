@@ -1,6 +1,8 @@
 import pandas as pd 
 import numpy as np
-import 
+#import nltk
+#nltk.download('vader_lexicon') #downloading vader lexicon
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 """
 Note: To modify the  python interpretor, import sys and run print(sys.executable) from
@@ -11,9 +13,8 @@ Purpose of the script is to
 
 
 
-#import nltk
-#nltk.download('vader_lexicon') #downloading vader lexicon
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
+
 
 vader = SentimentIntensityAnalyzer()
 
