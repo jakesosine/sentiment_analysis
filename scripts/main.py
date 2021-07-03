@@ -60,3 +60,6 @@ g = sns.catplot(x="variety", y="points", hue="positive_or_negative",
 plt.show()
 g.savefig('../figures/fig_1.png')
 
+
+
+
